@@ -24,10 +24,19 @@ li {
     color: white;
  }
  
+ .fc-bold {
+    font-weight: bolder;
+ }
+
+ .main-text {
+    font-size: 48px;
+ }
+
  .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
  }
+
  /*header */
 
 .header-container {
@@ -58,9 +67,11 @@ li {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
-    justify-content: center;
     padding-top: 100px;
     gap: 7rem;
+    padding: 15px  100px;
+    padding-bottom: 50px;
+
 }
 
 .hero-text,
@@ -70,5 +81,18 @@ li {
 }
 
 h2 {
-    width: 175px;
+    width: 300px;
+}
+
+.hero-p {
+    text-wrap:;
+    width: 275px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 12px;
+    border: none;
 }
